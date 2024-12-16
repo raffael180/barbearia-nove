@@ -629,6 +629,7 @@ footer p {
   }
   #contato_footer p {
     color: #FFFFFF;
-    font-weight: bold;
+    fill: #FFFFFF;
+    font-weight: initial;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -159,7 +159,8 @@
 
     #contato_footer p {
         color: $branco;
-        font-weight: bold;
+        fill: $branco;
+        font-weight: initial;
     }
 
 }
