@@ -1,0 +1,83 @@
+.parte_5 {
+    display: flex;
+    align-items: center;
+    min-height: 60vh;
+    background-color: $preto;
+}
+
+.parte_5 div {
+    flex: 1;
+}
+
+.parte_5 h2 {
+    color: $branco;
+    margin-left: 15vh;
+    margin-right: 25vh;
+    padding-bottom: 5vh;
+    font-size: 60px;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: -4px;
+    word-spacing: 1px;
+}
+
+.parte_5 a {
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 15vh;
+    margin-right: 25vh;
+    font-size: 35px;
+    border: 3px solid $branco;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: color 0.2s ease, background-color 0.6s ease;
+}
+
+#spotify {
+    background-color: $branco;
+    color: $preto;
+}
+
+#spotify:hover {
+    background-color: $preto;
+    color: $branco;
+}
+
+#spotify svg {
+    flex-direction: row;
+    align-items: center;
+    margin-top: -1vh;
+    width: 4vh;
+    height: auto;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+#spotify:hover svg path:first-of-type {
+    fill: $branco;
+}
+
+#spotify:hover svg path:nth-of-type(2) {
+    fill: $preto;
+}
+
+#instagram {
+    color: $branco;
+}
+
+#instagram svg {
+    flex-direction: row;
+    align-items: center;
+    margin-top: -1vh;
+    width: 4vh;
+    height: auto;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+#instagram:hover {
+    background-color: $branco;
+    color: $preto;
+}

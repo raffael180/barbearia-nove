@@ -1,0 +1,160 @@
+@media screen and (max-width: 768px) {
+    .parte_1 {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .parte_1 div {
+        flex: 1;
+    }
+
+    .parte_1 h2 {
+        margin-left: 3vh;
+        margin-right: 3vh;
+        text-align: center;
+        font-size: 50px;
+        line-height: 1.1;
+        letter-spacing: -1px;
+        word-spacing: 1px;
+    }
+
+    .parte_1 p {
+        margin-left: 3vh;
+        margin-right: 3vh;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    /*===============================================*/
+
+    .parte_2 {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .parte_2 h2 {
+        margin-left: 3vh;
+        margin-right: 3vh;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .parte_2 p {
+        margin-left: 3vh;
+        margin-right: 3vh;
+        text-align: center;
+        font-size: 15px;
+        min-height: 40vh;
+    }
+
+    .parte_2 img {
+        margin-bottom: -1vh;
+    }
+
+    /*===============================================*/
+
+    .parte_3 {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .parte_3 h2 {
+        margin-left: 3vh;
+        margin-right: 3vh;
+        font-size: 40px;
+        text-align: center;
+        padding-top: 15px;
+    }
+
+    .parte_3 p {
+        margin-left: 3vh;
+        margin-right: 3vh;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .parte_3 a {
+        margin-left: 3vh;
+        margin-right: 3vh;
+        margin-top: 2vh;
+        font-size: 15px;
+        padding: 7px;
+    }
+
+    /*===============================================*/
+
+    .parte_4 {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 70vh;
+    }
+
+    .parte_4 h2 {
+        margin-left: 3vh;
+        margin-right: 3vh;
+        padding-top: 5vh;
+        font-size: 40px;
+        text-align: center;
+        line-height: 1.1;
+        letter-spacing: -1px;
+        word-spacing: 1px;
+    }
+
+    .parte_4 a {
+        padding: 1.3vh;
+        margin-left: 3vh;
+        margin-right: 3vh;
+        margin-top: 5vh;
+        font-size: 15px;
+    }
+
+    /*===============================================*/
+
+    .parte_5 {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 70vh;
+    }
+
+    .parte_5 h2 {
+        margin-left: 3vh;
+        margin-right: 3vh;
+        padding-top: 5vh;
+        font-size: 40px;
+        text-align: center;
+        line-height: 1.1;
+        letter-spacing: -1px;
+        word-spacing: 1px;
+    }
+
+    .parte_5 a {
+        padding: 1.3vh;
+        margin-left: 3vh;
+        margin-right: 3vh;
+        font-size: 15px;
+    }
+
+    #spotify svg {
+        margin-top: -0.5vh;
+    }
+
+    #instagram svg {
+        margin-top: -0.5vh;
+    }
+
+    /*===============================================*/
+
+    .footer-itens {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 3vh;
+        margin-right: 3vh;
+    }
+
+}

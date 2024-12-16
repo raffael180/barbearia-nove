@@ -1,0 +1,80 @@
+.parte_4 {
+    display: flex;
+    align-items: center;
+    min-height: 60vh;
+    background-color: $branco;
+}
+
+.parte_4 div {
+    flex: 1;
+}
+
+.parte_4 h2 {
+    color: $azulzinho;
+    margin-left: 15vh;
+    margin-right: 25vh;
+    font-size: 60px;
+    text-align: justify;
+    line-height: 1.2;
+    letter-spacing: -4px;
+    word-spacing: 1px;
+}
+
+.parte_4 a {
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.5vh 0vh;
+    margin-left: 15vh;
+    margin-right: 25vh;
+    margin-top: 5vh;
+    font-size: 35px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: box-shadow 0.4s ease;
+}
+
+.button-4 {
+    border: 3px solid $azulzinho;
+    color: $azulzinho;
+    transition: color, background-color 0.4s ease-in-out;
+}
+
+.button-4:hover {
+    background-color: $azulzinho;
+    color: $branco;
+    fill: $branco;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: color, background-color 0.4s ease-in;
+}
+
+.button-4 svg {
+    flex-direction: row;
+    align-items: center;
+    margin-top: -1vh;
+    width: 4vh;
+    height: auto;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.button-4:hover svg path {
+    fill: $branco;
+    transition: fill 0.4s ease-in;
+}
+
+.button-agende {
+    border: 3px solid $preto;
+    background-color: $preto;
+    color: $branco;
+    transition: color, background-color 0.4s ease-in-out;
+}
+
+.button-agende:hover {
+    border: 3px solid $preto;
+    background-color: $branco;
+    color: $preto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transition: color, background-color 0.4s ease-in;
+}

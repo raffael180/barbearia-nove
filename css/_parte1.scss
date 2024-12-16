@@ -1,0 +1,27 @@
+.parte_1 {
+    display: flex;
+    min-height: 86vh;
+    align-items: center;
+}
+
+.parte_1 div {
+    flex: 1;
+}
+
+.parte_1 h2 {
+    padding: 5vh 0vh;
+    margin-left: 10vh;
+    margin-right: 2vh;
+    text-align: left;
+    font-size: 95px;
+    line-height: 1.2;
+    letter-spacing: -5px;
+    word-spacing: -1px;
+}
+
+.parte_1 p {
+    margin-left: 10vh;
+    margin-right: 2vh;
+    font-size: 20px;
+    text-align: justify;
+}

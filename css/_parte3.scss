@@ -1,0 +1,57 @@
+.parte_3 {
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    background-color: $cinza-mais-escurinho;
+    gap: 20px;
+}
+
+.parte_3 div {
+    flex: 1;
+}
+
+.parte_3 h2 {
+    color: $preto;
+    padding: 0vh 0vh;
+    margin-left: 15vh;
+    margin-right: 25vh;
+    font-size: 60px;
+    text-align: justify;
+}
+
+.parte_3 p {
+    margin-left: 15vh;
+    margin-right: 25vh;
+    color: $preto;
+    text-align: justify;
+    font-size: 35px;
+}
+
+#botoes_assinatura h2 {
+    text-align: center;
+}
+
+.parte_3 a {
+    display: block;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 15vh;
+    margin-right: 25vh;
+    margin-top: 2vh;
+    color: $preto;
+    font-size: 35px;
+    border: 3px solid $preto;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+    transition: background-color 0.6s ease;
+}
+
+.parte_3 a:hover {
+    transition: color 0.2s ease;
+    transition: background-color 0.6s ease;
+    background-color: $preto;
+    color: $branco;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}

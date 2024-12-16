@@ -1,0 +1,24 @@
+.parte_2 {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    background-color: $preto;
+    gap: 20px;
+}
+
+.parte_2 h2 {
+    color: $dourado;
+    padding: 0vh 0vh;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.parte_2 p {
+    margin-left: 10vh;
+    margin-right: 10vh;
+    color: $dourado;
+    text-align: justify;
+    font-size: 25px;
+}

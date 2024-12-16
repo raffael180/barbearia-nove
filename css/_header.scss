@@ -1,0 +1,76 @@
+header {
+    width: 100%;
+}
+
+@import "colors";
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $preto;
+    padding: 0vh 10vh;
+}
+
+.nav-list {
+    display: flex;
+    color: $branco;
+    list-style: none;
+    gap: 14px;
+}
+
+.logo {
+    transition: opacity 1s ease;
+}
+
+.logo:hover {
+    opacity: 0.7;
+    transition: opacity 1s ease;
+    cursor: pointer;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 0vh 2vh;
+}
+
+.nav-link {
+    color: $branco;
+    transition: color 0.4s ease;
+}
+
+.nav-link:hover {
+    color: $dourado;
+    transition: color 0.4s ease;
+}
+
+.nav-agendar {
+    color: $branco;
+    border: 2px solid $marrom-mais-escuro;
+    transition: border 0.4s ease;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+
+.nav-agendar:hover {
+    border: 2px solid $branco;
+    transition: border 0.4s ease;
+}
+
+@media screen and (max-width: 920px) {
+    .nav-item {
+        display: none;
+    }
+
+    .nav-agendar {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

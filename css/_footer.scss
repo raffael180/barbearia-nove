@@ -1,0 +1,101 @@
+@import "colors";
+
+footer {
+    padding: 50px 20px;
+    background-color: $preto;
+    color: $branco;
+}
+
+footer hr {
+    border: solid 0.5px $branco;
+    width: 95%;
+    margin: auto;
+}
+
+footer h4 {
+    font-weight: initial;
+    margin-top: 20px;
+}
+
+footer h5 {
+    font-weight: lighter;
+    margin-top: 4vh;
+    font-size: 10px;
+}
+
+footer p {
+    font-weight: initial;
+}
+
+.footer-itens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10vh;
+    margin-right: 10vh;
+    align-items: center;
+    text-decoration: none;
+    gap: 20px;
+    font-weight: bold;
+}
+
+.horarios {
+    margin-bottom: 1vh;
+}
+
+.horarios h3 {
+    margin-left: -2vh;
+}
+
+.horarios ul li {
+    font-weight: lighter;
+}
+
+#social_footer img {
+    width: 50px;
+}
+
+#social_footer {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#icones_social {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+#whatsapp_footer {
+    transition: transform 1s ease;
+}
+
+#instagram_footer {
+    transition: transform 1s ease;
+}
+
+#whatsapp_footer:hover {
+    transform: scale(1.1);
+}
+
+#instagram_footer:hover {
+    transform: scale(1.1);
+}
+
+#logomarca_footer {
+    width: 100px;
+    transition: opacity 1s ease;
+    cursor: pointer;
+}
+
+#logomarca_footer:hover {
+    opacity: 0.6;
+}
+
+#logo-copy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
