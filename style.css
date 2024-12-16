@@ -663,4 +663,11 @@ footer p {
     justify-content: center;
     min-height: 75vh;
   }
+}
+@media screen and (max-width: 1680px) {
+  .parte_2 {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */
