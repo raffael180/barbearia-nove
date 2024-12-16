@@ -629,5 +629,7 @@ footer p {
   }
   #contato_footer p {
     color: #FFFFFF;
+    border: 1px solid #000;
+    border-radius: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
