@@ -628,8 +628,6 @@ footer p {
     margin-right: 3vh;
   }
   #contato_footer p {
-    color: #FFFFFF;
-    fill: #FFFFFF;
-    font-weight: initial;
+    -webkit-touch-callout: none;
   }
 }/*# sourceMappingURL=style.css.map */
