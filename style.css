@@ -630,4 +630,37 @@ footer p {
     margin-left: 3vh;
     margin-right: 3vh;
   }
+}
+@media screen and (max-width: 1024px) {
+  .parte_1 {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /*===============================================*/
+  .parte_2 {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /*===============================================*/
+  .parte_3 {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /*===============================================*/
+  .parte_4 {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 70vh;
+  }
+  /*===============================================*/
+  .parte_5 {
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 75vh;
+  }
 }/*# sourceMappingURL=style.css.map */
