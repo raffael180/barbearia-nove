@@ -106,6 +106,9 @@ header {
     justify-content: center;
     flex-direction: column;
   }
+  .logo {
+    width: 100px;
+  }
 }
 .container {
   max-width: 1920px;
