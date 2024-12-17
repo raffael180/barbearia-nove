@@ -19,6 +19,7 @@ navLinks.forEach(link => {
 });
 
 //======================================================================================================================
+
 const dotsElement = document.getElementById('dots');
 let dots = '';
 let count = 0;
@@ -35,7 +36,7 @@ setInterval(animateDots, 500);
 
 //======================================================================================================================
 
-const fullText = "Bem-vindo à Barbearia nove, onde tradição e modernidade se encontram para transformar o seu visual. Nosso time de barbeiros especializados está pronto para oferecer um atendimento exclusivo, cortes impecáveis e aquele cuidado que você merece.";
+const fullText = "Sua melhor experiência em uma barbearia em Chapadinha agora por ASSINATURA.";
 const typingTextElement = document.getElementById('typing-text');
 let currentIndex = 0;
 
@@ -50,3 +51,20 @@ function typeText() {
 
 // Inicia a animação de escrita
 typeText();
+
+//======================================================================================================================
+
+let textoOriginal = "Barbearia Nove - Sua melhor experiência em uma barbearia em Chapadinha agora por ASSINATURA. ";
+let titulo = textoOriginal;
+let indice = 0;
+
+function animarTitle() {
+    document.title = titulo.substring(indice, titulo.length) + titulo.substring(0, indice);
+    indice++;
+    if (indice > titulo.length) {
+        indice = 0;
+    }
+    setTimeout(animarTitle, 500); // Ajuste o tempo em milissegundos (200ms para velocidade)
+}
+
+window.onload = animarTitle; // Chama a função ao carregar a página

@@ -35,6 +35,20 @@ a {
   text-decoration: none;
 }
 
+::-moz-selection {
+  background-color: #ffe7a1;
+  /* Cor de fundo amarelo */
+  color: #000000;
+  /* Cor do texto preto */
+}
+
+::selection {
+  background-color: #ffe7a1;
+  /* Cor de fundo amarelo */
+  color: #000000;
+  /* Cor do texto preto */
+}
+
 header {
   width: 100%;
 }
@@ -140,7 +154,7 @@ header {
 .parte_1 p {
   margin-left: 10vh;
   margin-right: 2vh;
-  font-size: 20px;
+  font-size: 25px;
   text-align: justify;
 }
 
@@ -166,7 +180,7 @@ header {
   margin-right: 10vh;
   color: #D8AF57;
   text-align: justify;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .parte_3 {
@@ -669,5 +683,8 @@ footer p {
     display: block;
     flex-direction: column;
     justify-content: center;
+  }
+  .horarios ul li {
+    font-size: 15px;
   }
 }/*# sourceMappingURL=style.css.map */

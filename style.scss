@@ -38,6 +38,13 @@ a {
     text-decoration: none;
 }
 
+::selection {
+    background-color: #ffe7a1;
+    /* Cor de fundo amarelo */
+    color: #000000;
+    /* Cor do texto preto */
+}
+
 @import "css/header";
 
 @import "css/layout";

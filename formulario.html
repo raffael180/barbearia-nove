@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Site desenvolvido para a Barbearia Nove, cujo o proprietário é o Wallysson Machado de Chapadinha-MA, este site foi desenvolvido pelo Engenheiro de Computação Marcos Raffael Almeida Amorim com o propósito de prestação de serviço para a barbearia.">
+    <meta name="keywords" content="Barbearia,cabelo,corte de cabelo,chapadinha,maranhao,barbearia nove">
+    <meta name="author" content="Marcos Raffael Almeida Amorim">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Itim&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="formulário.css">
+    <title>Redirecionando...</title>
+    <meta http-equiv="refresh" content="3; url=https://forms.gle/69dp8m4e4qUfmDFf7">
+</head>
+
+<body>
+    <p>Você está sendo redirecionado para o novo endereço.</p>
+
+    <p>Se não for redirecionado
+    <p id="animated-text"></p>
+    </p>
+
+
+    <script>
+        const texto = "...";
+        const elemento = document.getElementById("animated-text");
+        let indice = 0;
+
+        function digitarTexto() {
+            if (indice < texto.length) {
+                elemento.textContent += texto.charAt(indice);
+                indice++;
+                setTimeout(digitarTexto, 1000); // Velocidade da digitação
+            } else {
+                setTimeout(() => {
+                    elemento.textContent = ""; // Limpa o texto
+                    indice = 0;
+                    digitarTexto(); // Reinicia a animação
+                }, 2000); // Pausa antes de reiniciar
+            }
+        }
+
+        digitarTexto(); // Inicia a animação
+    </script>
+
+
+    <a href="forms.gle/69dp8m4e4qUfmDFf7">clique aqui</a>
+</body>
+
+</html>
