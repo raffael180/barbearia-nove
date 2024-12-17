@@ -32,7 +32,7 @@ function animateDots() {
 }
 
 // Atualiza os pontos a cada 500ms
-setInterval(animateDots, 500);
+setInterval(animateDots, 1000);
 
 //======================================================================================================================
 
