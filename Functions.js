@@ -35,7 +35,7 @@ function animateDots() {
 setInterval(animateDots, 1000);
 
 //======================================================================================================================
-
+/*
 const fullText = "Sua melhor experiência em uma barbearia em Chapadinha agora por ASSINATURA.";
 const typingTextElement = document.getElementById('typing-text');
 let currentIndex = 0;
@@ -51,9 +51,9 @@ function typeText() {
 
 // Inicia a animação de escrita
 typeText();
-
+*/
 //======================================================================================================================
-
+/*
 let textoOriginal = "Barbearia Nove - Sua melhor experiência em uma barbearia em Chapadinha agora por ASSINATURA. ";
 let titulo = textoOriginal;
 let indice = 0;
@@ -66,5 +66,33 @@ function animarTitle() {
     }
     setTimeout(animarTitle, 500); // Ajuste o tempo em milissegundos (200ms para velocidade)
 }
+*/
+//window.onload = animarTitle; // Chama a função ao carregar a página
 
-window.onload = animarTitle; // Chama a função ao carregar a página
+//======================================================================================================================
+
+const fullText = "Sua melhor experiência em uma barbearia em Chapadinha agora por ASSINATURA.";
+const typingTextElement = document.getElementById('typing-text');
+
+// Função para criar o efeito fade no texto
+function fadeText() {
+    typingTextElement.textContent = fullText; // Define o texto completo
+    typingTextElement.style.opacity = 0; // Começa o texto com opacidade 0 (invisível)
+    let opacity = 0;
+
+    // Função para aumentar a opacidade até 1 (texto totalmente visível)
+    function increaseOpacity() {
+        if (opacity < 1) {
+            opacity += 0.02; // Aumenta a opacidade de forma mais lenta
+            typingTextElement.style.opacity = opacity; // Aplica a opacidade ao elemento
+            setTimeout(increaseOpacity, 35); // Chama a função novamente após 35ms
+        }
+    }
+
+    // Inicia o efeito fade
+    increaseOpacity();
+}
+
+// Inicia o efeito fade
+fadeText();
+
