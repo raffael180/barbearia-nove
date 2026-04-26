@@ -389,6 +389,8 @@ header {
   flex-direction: row;
   align-items: center;
   margin-top: -1vh;
+  padding-top: 0.5vh;
+  overflow: visible;
   width: 4vh;
   height: auto;
   margin-left: 8px;
@@ -411,6 +413,8 @@ header {
   flex-direction: row;
   align-items: center;
   margin-top: -1vh;
+  padding-top: 0.5vh;
+  overflow: visible;
   width: 4vh;
   height: auto;
   margin-left: 8px;
