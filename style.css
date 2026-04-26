@@ -193,6 +193,9 @@ header {
 
 .parte_3 div {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .parte_3 h2 {
@@ -210,6 +213,10 @@ header {
   color: #000;
   text-align: justify;
   font-size: 35px;
+}
+
+#botoes_assinatura {
+  padding-bottom: 7vh;
 }
 
 #botoes_assinatura h2 {
@@ -250,12 +257,18 @@ header {
 
 .parte_4 div {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
 }
 
 .parte_4 h2 {
   color: #1B3E6B;
   margin-left: 15vh;
-  margin-right: 25vh;
+  margin-right: 15vh;
+  text-align: center;
   font-size: 60px;
   text-align: justify;
   line-height: 1.2;
@@ -265,13 +278,11 @@ header {
 
 .parte_4 a {
   display: block;
-  align-items: center;
   text-align: center;
   font-weight: bold;
   padding: 0.5vh 0vh;
-  margin-left: 15vh;
-  margin-right: 25vh;
-  margin-top: 5vh;
+  width: 70%;
+  margin-top: 0vh;
   font-size: 35px;
   border-radius: 20px;
   text-transform: uppercase;
@@ -324,34 +335,39 @@ header {
 
 .parte_5 {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   min-height: 60vh;
   background-color: #000;
 }
 
 .parte_5 div {
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .parte_5 h2 {
   color: #FFFFFF;
   margin-left: 15vh;
-  margin-right: 25vh;
+  margin-right: 15vh;
   padding-bottom: 5vh;
   font-size: 60px;
   text-align: center;
   line-height: 1.2;
   letter-spacing: -4px;
   word-spacing: 1px;
+  min-height: 220px;
+  display: flex;
+  align-items: center;
 }
 
 .parte_5 a {
   display: block;
-  align-items: center;
   text-align: center;
   font-weight: bold;
-  margin-left: 15vh;
-  margin-right: 25vh;
+  width: 70%;
   font-size: 35px;
   border: 3px solid #FFFFFF;
   border-radius: 20px;
