@@ -96,3 +96,5 @@ function fadeText() {
 // Inicia o efeito fade
 fadeText();
 
+// Atualizar data automaticamente
+document.getElementById('ano-atual').textContent = new Date().getFullYear();
